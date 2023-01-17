@@ -109,5 +109,8 @@ class Window:
     def close(self):
         pass
 
+    def set_on_close(self, handler):
+        pass
+
     def set_full_screen(self, is_full_screen):
         self.interface.factory.not_implemented("Window.set_full_screen()")
